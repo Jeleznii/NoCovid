@@ -34,7 +34,7 @@ h6{
 
 html,
 body{
-    background-color: #FAFAFA;
+    background-color: #FFF;
     height: 100%;
     line-height: 1;
     font-size: 12px;
@@ -95,8 +95,7 @@ body{
 
 
 }
-.header-logo {
-}
+
 .header-menu {
     flex: 1 1 auto;
 }
@@ -156,7 +155,7 @@ body{
     line-height: 12px;
     letter-spacing: 0.14em; 
     color: #FCFDFE;
-    width: 130px;
+    width: 144px;
     height: 40px;
     border-radius: 5px;
     text-align: center;
@@ -174,4 +173,109 @@ body{
 }
 .button_blue:hover{
     background: #0e326d;
+}
+
+/* get started */
+/* ----------------------------------------------- */
+.text-block {
+    
+}
+.text-block-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    color: #000000;
+}
+
+.text-block-title span{
+    color: #EC5863
+}
+
+.text-block-title-blue span {
+    color: #4285F4;
+}
+
+.text-block-title:not(:last-child){
+    margin: 0 0 12px 0;
+}
+
+.text-block-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 138.5%;
+    color: #616161;
+}
+
+.text-block-text:not(:last-child){
+    margin: 0 0 24px 0;
+}
+
+/* --------------------------------------------- */
+.get-started {
+    background-color: #FAFBFD;
+}
+.get-started__container {
+    padding: 150px 0 50px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.get-started__container::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    right: 0px;
+    top: 0;
+    transform: translate(72%, 0);
+    border-radius: 30px 0px 0px 30px;
+    background-color: #EC5863;
+}
+
+.get-started-content {
+    flex: 0 1 48%;
+    padding: 0 0 0 20px;
+}
+.get-started-text-block {
+    max-width: 410px;
+}
+
+.get-started-video {
+    flex: 1 1 100%;
+    margin: 60px 0 0 20px;
+}
+.video-get-started {
+    display: inline-flex;
+    align-items: center;
+}
+.video-get-started-icon {
+    flex: 0 0 44px;
+}
+.video-get-started-body {
+    padding: 0 0 0 12px;
+}
+.video-get-started-title {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 126%;
+    letter-spacing: 0.08em;
+    color: #B0B0B0;
+    margin: 0 0 5px 0;
+}
+.video-get-started-text {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 126%;
+    letter-spacing: 0.165em;
+    color: #000000;
+}
+.get-started-image {
+    z-index: 2;
+    flex: 0 1 52%;
+}
+
+.get-started-image img{
+   max-width: 100%;
 }
