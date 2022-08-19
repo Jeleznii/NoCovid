@@ -573,3 +573,20 @@ body {
     border-radius: 16px;
     transform: rotate(30deg);
 }
+
+/* footer */
+
+.footer {
+    padding: 45px 0;
+}
+.footer__container {
+
+}
+.footer-items {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-item {
+}
